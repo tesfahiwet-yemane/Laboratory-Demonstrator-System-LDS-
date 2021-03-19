@@ -1,9 +1,32 @@
 
 !*************************************************************************************
+!    Laboratory Demonstrator System (LDS)                                            *
+!    Copyright (c) 2021 Geophysics Research Laboratory (GRL)                         *
+!                                                                                    *
+!    LDS is free software: you can redistribute it and/or modify                     *
+!    it under the terms of the GNU General Public License as published by            *
+!    the Free Software Foundation, either version 3 of the License, or               *
+!    (at your option) any later version.                                             *
+!                                                                                    *
+!    LDS is distributed in the hope that it will be useful,                          *
+!    but WITHOUT ANY WARRANTY; without even the implied warranty of                  *
+!    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                   *
+!    GNU General Public License for more details.                                    *
+!                                                                                    *
+!    You should have received a copy of the GNU General Public License               *
+!    along with LDS.  If not, see <https://www.gnu.org/licenses/>.                   *
+!*************************************************************************************
+
+!*************************************************************************************
 !        FORTRAN 95 program containing subroutines and other sub-programs            *
 !                   for the Laboratory Demonstrator System (LDS)                     *
 !  The program computes current distributions and other items for a given electrode  *
 !             spacing on the basis of a programming model of the LDS                 *
+!                                                                                    *
+!             Geophysics Research Laboratory (GRL)                                   *
+!                 Department of Earth Sciences                                       *
+!             Eritrea Institute of Technology (EIT)                                  *
+!                         Eritrea                                                    *
 !*************************************************************************************
 
     module color
@@ -1094,7 +1117,18 @@ end module color
 !        CR=j*i
 !    end do
 !******************************************************************************
-     write(*,*)'******************************************************************************'
+     write(*,*)'                  ______________________________________________________________'
+     write(*,*)'                                                                '
+     write(*,*)'                            Laboratory Demonstrator System (LDS)'
+     write(*,*)'                                                           '
+     write(*,*)'                            Geophysics Research Laboratory (GRL)'
+     write(*,*)'                               Department of Earth Sciences'
+     write(*,*)'                            Eritrea Institute of Technology (EIT)'
+     write(*,*)'                                           Eritrea'
+     write(*,*)''
+     write(*,*)'                                   Copyright (c) 2021 GRL'
+     write(*,*)'                                   Under GNU GPL V3 License'
+     write(*,*)'                  ______________________________________________________________'
      write(*,*)''
      write(*,*)'ELECTRICAL RESISTIVITY SURVEYING'
      write(*,*)''
